@@ -3,8 +3,8 @@
         <img class="header_logo" src="../vendor/images/small-logo.svg">
         <span class="header_title">T2</span>
         <!-- <a href="" class="header_navi-1" routerLink="/" routerLinkActive="header_navi-1-active"><span>Главная</span></a>	 -->
-        <a href="auth/login" class="header_navi-1" routerLink="/auth/login" [ngClass]="{'header_navi-1-active': url == '/auth/login'}"><span>Авторизация</span></a>	
-        <a href="auth/register" class="header_navi-1" routerLink="/auth/register" [ngClass]="{'header_navi-1-active': url == '/auth/register'}" ><span>Регистрация</span></a>	
+        <a href="auth/login" class="header_navi-1" routerLink="/auth/login" routerLinkActive="header_navi-1-active"><span>Авторизация</span></a>	
+        <a href="auth/register" class="header_navi-1" routerLink="/auth/register" routerLinkActive="header_navi-1-active" ><span>Регистрация</span></a>	
     </div>
     <input type="text" #searchBox class="header_search" placeholder="Поиск">
     <div class="header_right">
