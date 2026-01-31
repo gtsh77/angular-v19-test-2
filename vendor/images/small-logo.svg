@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="27px" viewBox="0 0 36 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01_Sign-in" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_003_Sign-Enter-Code" transform="translate(-26.000000, -15.000000)">
+            <g id="Menu_Profile">
+                <g id="Logo" transform="translate(24.000000, 8.000000)">
+                    <rect id="Rectangle-2" x="0" y="0" width="40" height="40"></rect>
+                    <g id="100AM_logo" transform="translate(2.000000, 7.000000)">
+                        <path d="M18.0259703,9.11583039 L27.1145667,18.4041761 L19.2946185,26.3959913 C18.6032279,27.1025773 17.4810715,27.1013603 16.7885569,26.3936256 L8.95414873,18.3870326 L18.0259703,9.11583039 L18.0259703,9.11583039 Z" id="Rectangle-8" fill="#1CFFBD"></path>
+                        <path d="M26.3059077,0.677408735 C26.9972982,-0.0291772363 28.1194546,-0.0279602581 28.8119693,0.679774465 L35.3921892,7.4046146 C36.0848582,8.11250713 36.0857405,9.25932603 35.394504,9.96575449 L27.5745558,17.9575697 L18.4859595,8.66922391 L26.3059077,0.677408735 L26.3059077,0.677408735 Z" id="Rectangle-8" fill="#CC9DFC"></path>
+                        <path d="M7.24769043,0.677408735 C7.93908101,-0.0291772363 9.06123742,-0.0279602581 9.75375204,0.679774465 L17.5881602,8.68636741 L8.51633863,17.9575697 L0.681930478,9.95097672 C-0.0107385552,9.24308419 -0.011620825,8.0962653 0.679615623,7.38983684 L7.24769043,0.677408735 L7.24769043,0.677408735 Z" id="Rectangle-8" fill="#1CE9FF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

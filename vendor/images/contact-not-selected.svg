@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>3BBBA03B-8CBB-40FA-921E-CB45091B864C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-255.000000, -272.000000)">
+            <g id="ic_radio_button_unchecked_black_24px" transform="translate(255.000000, 272.000000)">
+                <g id="Group">
+                    <path d="M12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 C17.52,22 22,17.52 22,12 C22,6.48 17.52,2 12,2 L12,2 Z M12,21 C7.0275,21 3,16.9725 3,12 C3,7.0275 7.0275,3 12,3 C16.9725,3 21,7.0275 21,12 C21,16.9725 16.9725,21 12,21 L12,21 Z" id="Shape" fill="#5E6D86"></path>
+                    <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

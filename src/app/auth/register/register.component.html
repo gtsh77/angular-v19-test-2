@@ -1,0 +1,15 @@
+<div class="main auth" [@anShow]>
+	<span class="auth_header">Регистрация</span>
+	<div class="input_box">
+		<!-- <input #input (focus)="utils.inputShowActive(input)" (blur)="utils.inputHideActive(input)" [(ngModel)]="scope.newLoginInput" class="input_box_input" type="email" placeholder="Ваш email"> -->
+        <input #input class="input_box_input" type="email" placeholder="E-mail">
+		<div class="input_box_line" [class.input_box_line-red]="isError">
+			<div class="input_box_line_1"></div>
+			<div class="input_box_line_2"></div>
+		</div>
+		<div class="input_box_error"><span *ngIf="isError">{{isError}}</span></div>
+	</div>
+	<!-- <a href="" click-by-enter (click)="submitNewLoginForm($event)" class="auth_submit btn_type-1">Create Account</a> -->
+    <a click-by-enter class="auth_submit btn_type-1">Зарегистрировать</a>
+	<a routerLink='/auth/login' class="auth_extralink">Есть аккаунт? Войти</a>
+</div>

@@ -1,0 +1,30 @@
+<div class="header header_new">
+    <div class="header_left">
+        <img class="header_logo" src="../vendor/images/small-logo.svg">
+        <span class="header_title">T2</span>
+        <!-- <a href="" class="header_navi-1" routerLink="/" routerLinkActive="header_navi-1-active"><span>Главная</span></a>	 -->
+        <a href="auth/login" class="header_navi-1" routerLink="/auth/login" [ngClass]="{'header_navi-1-active': url == '/auth/login'}"><span>Авторизация</span></a>	
+        <a href="auth/register" class="header_navi-1" routerLink="/auth/register" [ngClass]="{'header_navi-1-active': url == '/auth/register'}" ><span>Регистрация</span></a>	
+    </div>
+    <input type="text" #searchBox class="header_search" placeholder="Поиск">
+    <div class="header_right">
+        <div class="header_controls">
+            <a class="header_controls_noty"><i class="icon-ic_notifications_black_24px"></i></a>
+            <a class="header_controls_chat"><i class="icon-ic_chat_black_24px"></i></a>
+            <div class="header_my_ava"></div>
+        </div>
+    </div>
+</div>
+<!-- <div class="header header_new" *ngIf="global.module == 'corp'">
+    <div class="header_left">
+        <img class="header_logo" src="../images/small-logo.svg">
+        <span class="header_title">100am - corporate</span>
+        <a *ngIf="global.isAuthCorp && global.isTemplateExists" href="" class="header_navi-1" routerLink="{{'/corporate/company/'+global.settingsCorp.Company.Id+'/staff'}}" routerLinkActive="header_navi-1-active"><span>Members</span></a>
+        <a *ngIf="global.isAuthCorp && global.isTemplateExists" href="" class="header_navi-1" routerLink="{{'/corporate/company/'+global.settingsCorp.Company.Id+'/card'}}" routerLinkActive="header_navi-1-active"><span>Company</span></a>
+        <a *ngIf="global.isAuthCorp && global.isTemplateExists" href="" class="header_navi-1" routerLink="{{'/corporate/company/'+global.settingsCorp.Company.Id+'/invite'}}" routerLinkActive="header_navi-1-active"><span>Send Invites</span></a>
+        <a href="" class="header_navi-1" routerLink="/"><span>Switch to personal</span></a>
+        <a *ngIf="global.isAuthCorp" href="" class="header_navi-1" routerLink="/corporate/auth/logout" routerLinkActive="header_navi-1-active"><span>Logout</span></a>
+    </div>
+    <input type="text" #searchBox class="header_search" placeholder="Поиск (выключен)">
+</div> -->
+<!-- <div class="loader loader2"><img src="images/loader.svg"></div> -->
